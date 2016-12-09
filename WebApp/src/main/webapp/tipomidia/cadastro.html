@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Cadastrar Tipo Midia</title>
+<link rel="stylesheet" href="/WebApp/resources/css/bootstrap.min.css">
+</head>
+<body>
+	<div>
+		<h4>Cadastro do Tipo de Mida</h4>
+	</div>
+	<br />
+	<div class="input-group col-md-4">
+		<label>Descrição:</label> <input id="descricao-tipoMidia" type="text"
+			class="form-control"></input>
+	</div>
+	
+	<div class="input-group col-md-4">
+		<label>Midias:</label> <input id="midias-tipoMidia" type="text"
+			class="form-control"></input>
+	</div>
+	
+	
+	
+	
+	<br />
+	
+	<div class="input-group">
+		<button id="cadastrar" type="button" class="btn btn-default gold"
+			onclick="cadastrarFilme();">Cadastrar</button>
+	</div>
+
+	<div id="modal-mensagens" class="modal fade" tabindex="-1"
+		role="dialog">
+		<div class="modal-dialog" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h4 id="modal-title" class="modal-title"></h4>
+				</div>
+				<div class="modal-body">
+					<label id="modal-mensagem"></label>
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-defaul" data-dismiss="modal">OK</button>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<script src="/WebApp/resources/js/jquery.min.js"></script>
+	<script src="/WebApp/resources/js/bootstrap.min.js"></script>
+	<script src="/WebApp/resources/js/tipo.midia.js"></script>
+	<script src="/WebApp/resources/js/midia.js"></script>
+	
+</body>
+</html>

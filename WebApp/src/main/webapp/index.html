@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Locadora</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" href="resources/css/bootstrap.min.css">
+	<link rel="stylesheet" href="resources/css/default.css">
+</head>
+<body>
+
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">Locadora</a>
+    </div>
+    <ul class="nav navbar-nav">
+      <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Filme <span class="caret"></span></a>
+        <ul class="dropdown-menu">
+          <li><a href="javascript:abrirTelaCadastroFilme();">Cadastrar Filme</a></li>
+          <li><a href="javascript:abrirTelaListarFilme();">Listar Filmes</a></li>
+        </ul>
+      </li>
+      
+       </ul>
+          <ul class="nav navbar-nav">
+     <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Locaçoes <span class="caret"></span></a>
+        <ul class="dropdown-menu">
+          <li><a href="javascript:abrirTelaCadastroLocacao();">Locar</a></li>
+          <li><a href="javascript:abrirTelaListarLocacoes();">Listar Locações</a></li>
+        </ul>
+      </li>
+       </ul>
+       
+       
+     <ul class="nav navbar-nav">
+     <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Categoria <span class="caret"></span></a>
+        <ul class="dropdown-menu">
+          <li><a href="javascript:abrirTelaCadastroCategoria();">Cadastrar Categoria</a></li>
+          <li><a href="javascript:abrirTelaListarCategoria();">Listar Categoria</a></li>
+        </ul>
+      </li>
+       </ul>
+       
+       <ul class="nav navbar-nav">
+      <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Endereço <span class="caret"></span></a>
+        <ul class="dropdown-menu">
+          <li><a href="javascript:abrirTelaCadastroEndereco();">Cadastrar Endereço</a></li>
+          <li><a href="javascript:abrirTelaListarEnderecos();">Listar Endereços</a></li>
+        </ul>
+      </li>
+    </ul>
+    
+          <ul class="nav navbar-nav">
+     <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Midia <span class="caret"></span></a>
+        <ul class="dropdown-menu">
+          <li><a href="javascript:abrirTelaCadastroMidia();">Cadastrar Midia</a></li>
+           <li><a href="javascript:abrirTelaListarTipoMidia();">Cadastrar Tipo de Midias</a></li>
+          <li><a href="javascript:abrirTelaListarMidia();">Listar Midias</a></li>
+          
+        </ul>
+      </li>
+       </ul>
+    
+       <ul class="nav navbar-nav">
+     <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Usuario <span class="caret"></span></a>
+        <ul class="dropdown-menu">
+          <li><a href="javascript:abrirTelaCadastroUsuario();">Cadastrar Usuario</a></li>
+          <li><a href="javascript:abrirTelaListarUsuarios();">Listar Usuarios</a></li>
+        </ul>
+      </li>
+       </ul>
+       
+       
+    
+  </div>
+</nav>
+  
+<div class="container">
+	
+</div>
+
+<div id="conteudo-principal"></div>
+
+<script src="resources/js/jquery.min.js"></script>
+<script src="resources/js/bootstrap.min.js"></script>
+<script src="resources/js/categoria.js"></script>
+<script src="resources/js/endereco.js"></script>
+<script src="resources/js/filme.js"></script>
+<script src="resources/js/midia.js"></script>
+<script src="resources/js/usuario.js"></script>
+<script src="resources/js/default.js"></script>
+<script src="/WebApp/resources/js/tipo.midia.js"></script>
+</body>
+</html>

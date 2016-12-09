@@ -1,0 +1,16 @@
+@CHARSET "ISO-8859-1";
+button.btn.btn-default.gold{
+	background-color: #FFD700;
+}
+
+table td{
+	padding: 5px;
+}
+
+table tr td.id{
+	background-color: #F0E68C;
+}
+
+table tr td.descricao{
+	background-color: #FA8072;
+}
