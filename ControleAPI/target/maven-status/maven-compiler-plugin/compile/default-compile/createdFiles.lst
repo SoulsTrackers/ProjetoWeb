@@ -1,0 +1,10 @@
+br\com\julian\projelolocadora\ControleAPI\App.class
+br\com\julian\projetolocadora\ctrl\EnderecoCtrl.class
+br\com\julian\projetolocadora\dto\CategoriaDTO.class
+br\com\julian\projetolocadora\dto\EnderecoDTO.class
+br\com\julian\projetolocadora\dto\ListFilmeDTO.class
+br\com\julian\projetolocadora\ctrl\FilmeCtrl.class
+br\com\julian\projetolocadora\ctrl\CategoriaCtrl.class
+br\com\julian\projetolocadora\dto\BaseDTO.class
+br\com\julian\projetolocadora\dto\BaseListDTO.class
+br\com\julian\projetolocadora\dto\FilmeDTO.class
